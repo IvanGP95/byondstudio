@@ -1,0 +1,192 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/* ------------------------------------ Header ------------------------------------*/
+.nav-item .nav-link:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav-link{
+    border-radius: 10px;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px grey;
+    z-index: 3;
+}
+
+
+/* ------------------------------------ Hero ------------------------------------*/
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    color: white;
+    background-image: 
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./imagenes/Logo/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 90px;
+}
+
+#section1{
+    height: 90vh;
+}
+
+
+/* ------------------------------------ Section 1 ------------------------------------*/
+
+#section1{
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+#section1__img img{
+    height: 500px;
+}
+
+#section1__text{
+    align-items: center;
+}
+
+.section1__btn{
+    color:blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section1__btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/* ------------------------------------ Section 2 ------------------------------------*/
+
+#section2{
+    height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cards{
+    z-index: 1;
+    justify-content: space-around;
+}
+
+#cards img{
+    height: 250px;
+}
+
+.card {
+    border: none;
+}
+
+/* ------------------------------------ footer ------------------------------------*/
+
+
+#footer{
+    background-color: blueviolet;
+    height: 45vh;
+    color: white;
+}
+
+#footer ul{
+    padding: 0;
+}
+
+#footer ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.btn{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    color: #41099D;
+    font-size: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 5vh;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------------------------------------ Media Querys ------------------------------------*/
+
+@media (max-width: 991px){
+    .nav-item{
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 777px){
+
+    #section1__text{
+        background-color: white;
+    }
+
+    #section1__img img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 540px){
+
+    #section1{
+        height: 40vh;
+    }
+
+    #section1__text{
+        background-color: white;
+    }
+
+    #section1__img img{
+        display: none;
+    }
+
+    #section1__img {
+        width: 0;
+    }
+}
