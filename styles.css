@@ -114,6 +114,8 @@ h1{
     color: white;
 }
 
+
+
 #footer ul{
     padding: 0;
 }
@@ -149,7 +151,10 @@ h1{
     height: 5vh;
     bottom: 0;
     width: 100%;
+    padding: 10px;
 }
+
+
 
 /* ------------------------------------ Media Querys ------------------------------------*/
 
