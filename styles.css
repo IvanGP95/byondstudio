@@ -188,7 +188,27 @@ h1{
     height: 60px;
 }
 
-/* ------------------------------------ Media Querys ------------------------------------*/
+/* ------------------------------------ Branding ------------------------------------ */
+
+#branding1{
+    padding-top: 170px;
+}
+
+#branding2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+/* -------------------- Media Querys ------------------------------------*/
+
+@media (max-width: 1118px){
+    #section1__img img{
+        height: 400px;
+        margin-left: 100px;
+    }
+}
 
 @media (max-width: 1080px){
     #section1__texto{
@@ -239,7 +259,42 @@ h1{
     #section1__texto{
         font-size: calc(1em + 1vw);
     }
+
+    #branding2 img{
+        height: 300px;
+        width: auto;
+    }
 }
+
+@media (max-width: 748px){
+
+    .margin{
+        height: 70px;
+    }
+
+    #branding1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        border: 1px rgb(234, 234, 235) solid;
+    }
+    #branding2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        border: 1px rgb(234, 234, 235) solid;
+        width: 100%;
+    }
+
+    #branding1 img{
+        padding-bottom: 10px;
+    }
+
+    #branding2 img{
+        padding-top: 10px;
+    }
+}
+
 
 @media(max-width:578px){
 
