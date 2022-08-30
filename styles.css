@@ -277,6 +277,7 @@ h1{
         flex-direction: column;
         padding-top: 50px;
         border: 1px rgb(234, 234, 235) solid;
+
     }
     #branding2{
         display: flex;
@@ -284,6 +285,8 @@ h1{
         padding-top: 50px;
         border: 1px rgb(234, 234, 235) solid;
         width: 100%;
+        padding-left: auto;
+        padding-right: auto;
     }
 
     #branding1 img{
@@ -292,6 +295,12 @@ h1{
 
     #branding2 img{
         padding-top: 10px;
+        width: auto;
+        padding-left: 30px;
+    }
+
+    #cardText{
+        padding-bottom: 100px;
     }
 }
 
