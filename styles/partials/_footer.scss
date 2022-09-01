@@ -1,0 +1,45 @@
+#footer{
+    background-color: blueviolet;
+    height: 45vh;
+    color: white;
+}
+
+
+
+#footer {
+    ul{
+        padding: 0;
+        li{
+            list-style: none;
+            padding-left: 30px;
+        }
+    }
+}
+
+.btn{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    color: #41099D;
+    font-size: 20px;
+    border-color: white;
+    cursor: pointer;
+    .btn:hover{
+        background-color: black;
+        color: white;
+        border-color: black;
+    }
+}
+
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+}

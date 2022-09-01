@@ -1,0 +1,29 @@
+#section1{
+    align-items: center;
+    padding: 15px auto;
+    justify-content: space-around;
+}
+
+#section1__img {
+    img {
+    height: 500px;
+    margin-left: 150px;
+    }
+}
+
+#section1__text{
+    align-items: center;
+    margin-right: 100px;
+}
+
+.section1__btn{
+    color:blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+
+    .section1__btn:hover{
+        color: white;
+        background-color: blueviolet;
+    }
+
+}

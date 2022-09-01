@@ -1,0 +1,14 @@
+@import "./partials/header", "./partials/hero", "./partials/section1", "./partials/section2", "./partials/footer", "./partials/contacto.scss", "./partials/branding", "./partials/querys" ;
+
+body{
+    font-family: 'Roboto', sans-serif;
+    position: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    a{
+        text-decoration: none;
+    }
+}
