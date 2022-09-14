@@ -33,6 +33,14 @@
         margin-left: 100px;
         }
     }
+    .nosotros{
+        flex-direction: column;
+        .aboutus__text{
+            font-size: 0.8em;
+            width: 100%;
+        }
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 902px){
@@ -69,6 +77,15 @@
         img{
         height: 300px;
         width: auto;
+        }
+    }
+
+    .nosotros{
+        img{
+            width: 300px !important;
+        }
+        .aboutus__text{
+            width: 300px !important;
         }
     }
 }
@@ -172,6 +189,9 @@
     }
     #section1__texto{
         font-size: calc(1em + 1vw);
+    }
+    .nosotros{
+
     }
 }
 
