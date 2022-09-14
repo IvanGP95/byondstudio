@@ -7,10 +7,14 @@
         opacity: 30%;
     }
     .card-text{
-        padding-top: 70px;
+        padding-top: 20px;
     }
     .card:hover{
         width: 110%;
+        .card-text{
+            padding-top: 70px;
+        }
     }
+
 }
 

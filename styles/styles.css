@@ -360,10 +360,13 @@
   opacity: 30%;
 }
 .servicios .card-text {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .servicios .card:hover {
   width: 110%;
+}
+.servicios .card:hover .card-text {
+  padding-top: 70px;
 }
 
 body {
